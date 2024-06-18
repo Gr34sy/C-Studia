@@ -8,5 +8,12 @@
 		"**/*.o": true,
 		"**/*.exe": true,
 	},
-	"C_Cpp.errorSquiggles": "disabled"
+	"C_Cpp.errorSquiggles": "disabled",
+	"makefile.launchConfigurations": [
+		{
+			"cwd": "/Users/greasy/Desktop/kodowanie/C-Studia/snake",
+			"binaryPath": "/Users/greasy/Desktop/kodowanie/C-Studia/snake/game",
+			"binaryArgs": []
+		}
+	]
 }
