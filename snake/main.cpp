@@ -240,3 +240,35 @@ int main()
     CloseWindow();
     return 0;
 }
+
+class Rectangle{
+    public:
+       int bokA;
+       int bokB;
+       int bokC;
+       int bokD;
+    Rectangle(int a, int b){
+       bokA = a;
+       bokB = b;
+       bokC = a;
+       bokD = b; 
+    }
+
+    int Obwod(){
+        int obwod = bokA + bokB + bokC + bokD;
+        return obwod;
+    }
+    
+    int Pole(){
+        int pole = bokA * bokB;
+        return pole;
+    }
+};
+
+int main() {
+    Rectangle figura = Rectangle(1,3);
+    
+    std::cout << figura.Pole();
+
+    return 0;
+}

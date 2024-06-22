@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/greasy/Desktop/kodowanie/C-Studia/tetris",
+            "binaryPath": "/Users/greasy/Desktop/kodowanie/C-Studia/tetris/game",
+            "binaryArgs": []
+        }
+    ]
+}
